@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test'
 
-test('login', async ({ page }) => {
+test('logintest', async ({ page }) => {
 
     await page.goto('https://practicetestautomation.com/practice-test-login/')
      await page.locator("//*[@id='username']").scrollIntoViewIfNeeded();
